@@ -8,7 +8,7 @@ Customer Sentiment on seller quality with NLU on Cloud Pak for Data
 
 # Author
 * [Manoj Jahgirdar](https://www.linkedin.com/in/manoj-jahgirdar-6b5b33142/)
-* [Smruthi Mohan Raj](https://www.linkedin.com/in/smruthi-raj-mohan-143088145/)
+* [Smruthi Raj Mohan](https://www.linkedin.com/in/smruthi-raj-mohan-143088145/)
 * [Srikanth Manne]()
 * [Manjula Hosurmath](https://www.linkedin.com/in/manjula-g-hosurmath-0b47031)
 
