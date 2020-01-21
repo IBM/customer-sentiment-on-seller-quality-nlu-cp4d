@@ -8,10 +8,10 @@ The rating which is given to the seller on e-commerce platform is just a rating 
 
 When you have completed this code pattern, you will understand how to:
 
-* [goal 1]
-* [goal 2]
-* [goal 3]
-* [goal 4]
+* Use advanced NLP to analyze text and extract meta-data from content such as sentiment, emotion, relations, etc.
+* 
+* 
+* Build Interactive dashboards and produce visualizations directly from your data in real-time.
 
 <!--add an image in this path-->
 ![architecture](doc/source/images/architecture.png)
