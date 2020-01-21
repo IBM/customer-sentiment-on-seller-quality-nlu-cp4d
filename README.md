@@ -9,9 +9,9 @@ The rating which is given to the seller on e-commerce platform is just a rating 
 When you have completed this code pattern, you will understand how to:
 
 * Use advanced NLP to analyze text and extract meta-data from content such as sentiment, emotion, relations, etc.
+* Run small pieces of code to process your data and immediately view the results with Jupyter Notebook.
 * 
-* 
-* Build Interactive dashboards and produce visualizations directly from your data in real-time.
+* Build Interactive dashboards and produce visualizations directly from your data in real-time with Embedded Dashboard.
 
 <!--add an image in this path-->
 ![architecture](doc/source/images/architecture.png)
