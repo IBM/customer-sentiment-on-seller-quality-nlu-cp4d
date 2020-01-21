@@ -25,16 +25,10 @@ When you have completed this code pattern, you will understand how to:
 4. Visualise insights from the data using Watson Embedded Dashboard on Cloud Pak for Data
 
 <!--Optionally, update this section when the video is created-->
-# Watch the Video
-
-[![video](http://img.youtube.com/vi/Jxi7U7VOMYg/0.jpg)](https://www.youtube.com/watch?v=Jxi7U7VOMYg)
+# Pre-requisites
+- Any Database. In this Code Pattern we demonstrate using [Db2 on Cloud Pak for Data] (https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/svc/db2z/create_database_db2z.html)
 
 # Steps
-
-Use the **Deploy to IBM Cloud** button **OR** create the services and run locally.
-
-<!--Optionally, add a deploy to ibm cloud button-->
-
 ## Deploy to IBM Cloud
 
 [![Deploy to IBM Cloud](https://cloud.ibm.com/deploy/button.png)](https://cloud.ibm.com/deploy?repository=https://github.com/IBM/watson-banking-chatbot.git)
