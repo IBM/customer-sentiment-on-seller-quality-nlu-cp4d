@@ -25,14 +25,25 @@ When you have completed this code pattern, you will understand how to:
 4. Visualise insights from the data using Watson Embedded Dashboard on Cloud Pak for Data
 
 <!--Optionally, update this section when the video is created-->
-# Pre-requisites
+## Pre-requisites
 - Any SQL Database. 
 >In this Code Pattern we demonstrate using [Db2 on Cloud Pak for Data](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/svc/db2z/create_database_db2z.html)
 
-# Steps
+## Steps
+
+Follow the **Deploy on Cloud Pak for Data** Tutorial if you wish to deploy on Cloud Pak for Data or **Deploy on IBM Cloud** Tutorial if you wish to deploy on IBM Cloud.
+
 ## Deploy on Cloud Pak for Data
 
+Follow the tutorial to deploy on Cloud Pak for Data.
+
+- [Deploy on Cloud Pak for Data](https://github.com/IBM/prepare-your-dataset-using-data-refinery-from-db2-cp4d/blob/master/cloudpak.md)
+
 ## Deploy on IBM Cloud
+
+Follow the tutorial to deploy on IBM Cloud.
+
+- [Deploy on IBM Cloud](https://github.com/IBM/prepare-your-dataset-using-data-refinery-from-db2-cp4d/blob/master/publiccloud.md)
 
 <!--Add a section that explains to the reader what typical output looks like, include screenshots -->
 
