@@ -29,6 +29,8 @@ When you have completed this code pattern, you will understand how to:
 - Any SQL Database. 
 >In this Code Pattern we demonstrate using [Db2 on Cloud Pak for Data](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/svc/db2z/create_database_db2z.html)
 
+- [IBM Cloud Account](https://cloud.ibm.com/)
+
 ## Steps
 
 Follow the **Deploy on Cloud Pak for Data** Tutorial if you wish to deploy on Cloud Pak for Data or **Deploy on IBM Cloud** Tutorial if you wish to deploy on IBM Cloud.
