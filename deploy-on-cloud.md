@@ -26,8 +26,8 @@ We’ll be using the following files:
 As we don’t have a proper dataset with product reviews and product delivery status, we are cooking up the dataset by _assuming_ 
 that the products from the **Customised version of Brazilian E-Commerce Public Dataset by Olist** and the **Consumer Reviews of Amazon Products** are the same.
 
-### 2. Create a Watson Natural Language Understanding Service
-### 3. Create a Project
+### 2. Create Watson Natural Language Understanding Service
+### 3. Create Watson Studio Service
 ### 4. Add Db2 Connection to the Project
 ### 5. Prepare and Run the Jupyter Notebook
 ### 6. Create Embedded Dashboard Service
