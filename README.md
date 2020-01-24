@@ -30,7 +30,9 @@ When you have completed this code pattern, you will understand how to:
 >In this Code Pattern we demonstrate using [Db2 on Cloud Pak for Data](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/svc/db2z/create_database_db2z.html)
 
 # Steps
-## Deploy to IBM Cloud
+## Deploy on Cloud Pak for Data
+
+## Deploy on IBM Cloud
 
 <!--Add a section that explains to the reader what typical output looks like, include screenshots -->
 
