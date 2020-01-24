@@ -1,8 +1,5 @@
 # Deploy on Cloud
 
-## Pre-requisites
-1. [IBM Cloud Account](https://cloud.ibm.com/)
-
 ## Steps
 
 1. [Download the Dataset](#1-download-the-dataset)
