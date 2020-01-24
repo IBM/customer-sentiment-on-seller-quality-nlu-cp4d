@@ -1,4 +1,4 @@
-# Deploy on Cloud
+# Deploy on IBM Cloud
 
 ## Steps
 
