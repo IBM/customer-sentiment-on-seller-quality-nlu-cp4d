@@ -26,6 +26,8 @@ When you have completed this code pattern, you will understand how to:
 
 <!--Optionally, update this section when the video is created-->
 ## Pre-requisites
+- Implementation of this Code Pattern requires a basic understanding of Data Refinery and it also makes use of the dataset created in the tutorial [Prepare your Dataset for your ML Models using Data Refinery](https://github.com/IBM/prepare-your-dataset-using-data-refinery-from-db2-cp4d). Please complete the above tutorial before implementing this code pattern.
+
 - Any SQL Database. 
 >In this Code Pattern we demonstrate using [Db2 on Cloud Pak for Data](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/svc/db2z/create_database_db2z.html)
 
