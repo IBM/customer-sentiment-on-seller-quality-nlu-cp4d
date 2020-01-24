@@ -21,7 +21,7 @@ After Downloading, Extract the `consumer-reviews-of-amazon-products.zip` file.
 
 We’ll be using the following files:
 
-`[Datafiniti_Amazon_Consumer_Reviews_of_Amazon_Products_May19.csv]()` : This dataset is a list of over 28,000 consumer reviews for Amazon products like the Kindle, Fire TV Stick, and more from Datafiniti's Product Database updated between February 2019 and April 2019.
+[Datafiniti_Amazon_Consumer_Reviews_of_Amazon_Products_May19.csv]() : This dataset is a list of over 28,000 consumer reviews for Amazon products like the Kindle, Fire TV Stick, and more from Datafiniti's Product Database updated between February 2019 and April 2019.
 
 As we don’t have a proper dataset with product reviews and product delivery status, we are cooking up the dataset by _assuming_ 
 that the products from the **Customised version of Brazilian E-Commerce Public Dataset by Olist** and the **Consumer Reviews of Amazon Products** are the same.
