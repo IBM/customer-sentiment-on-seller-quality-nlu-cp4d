@@ -73,7 +73,6 @@ We have successfully created a project and added Db2 Connection to our project. 
 ![createJupyterNotebook](doc/source/images/createJupyterNbCp4d.gif)
 
 * Once the notebook is created we will have to fill in 4 Cells with the following: 
-
       - Watson Natural Language Understanding Credentials
       - Upload the Consumer Reviews of Amazon Products dataset and insert Pandas Dataframe
       - Insert the Customised version of Brazilian E-Commerce Public Dataset by Olist from Db2
