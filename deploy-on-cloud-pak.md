@@ -89,7 +89,9 @@ We have successfully created a project and added Db2 Connection to our project. 
 
 ![uploadDataset](doc/source/images/uploadDatasetCp4d.gif) 
 
-* Once the Dataset is uploaded, click on the cell which says _"Insert Customer Review Dataset here"_, click on **`Insert to code > Insert Pandas Dataframe`**. You will see the code to read the dataset in the cell. Finally replace the variable name to **data** as shown.
+* Once the Dataset is uploaded, click on the cell which says _"Insert Customer Review Dataset here"_, click on **`Insert to code > Insert Pandas Dataframe`**. You will see the code to read the dataset in the cell. 
+
+* Finally replace the variable name to **data** as shown.
 
 ![insertPandasDf](doc/source/images/insertPandasDfCp4d.gif)
 
@@ -112,6 +114,12 @@ We have successfully created a project and added Db2 Connection to our project. 
 ![insertDbCredentials](doc/source/images/insertDbCredentialsCp4d.gif) 
 
 #### 5.2. Run the Notebook
+
+After all the Preperations are done, we will run the Jupyter Notebook by Clicking on **`Cell > Run All`** as shown.
+
+![runAllCells](doc/source/images/runAllCellscp4d.png)
+
+**NOTE: It will take around 25 Min - 30 Min to complete the execution of entire notebook, please be Patient!**
 
 ### 6. Create Embedded Dashboard Service
 ### 7. Visualize the Dashboard
