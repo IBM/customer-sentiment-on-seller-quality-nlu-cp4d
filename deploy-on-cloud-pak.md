@@ -77,7 +77,20 @@ We have successfully created a project and added Db2 Connection to our project. 
   - Upload the Consumer Reviews of Amazon Products dataset and insert Pandas Dataframe
   - Insert the Customised version of Brazilian E-Commerce Public Dataset by Olist from Db2
   - Insert Db2 Credentials into the Notebook
-      
+ 
+##### 5.1.1. Watson Natural Language Understanding Credentials
+Insert the credentials copied from [step 2](#2-create-a-watson-natural-language-understanding-service) in the cell shown below.
+
+![nluCredentials](doc/source/images/nluCredentials.png)
+
+##### 5.1.2. Upload the Consumer Reviews of Amazon Products dataset and insert Pandas Dataframe
+Click on the **Assets** tab, and select **browse**, from the file uploader select the extracted file from [step 1](#1-download-the-dataset) named **Datafiniti_Amazon_Consumer_Reviews_of_Amazon_Products_May19.csv** from the **Consumer Reviews of Amazon Products**.
+
+![uploadDataset](doc/source/images/uploadDatasetCp4d.gif) 
+
+##### 5.1.3. Insert the Customised version of Brazilian E-Commerce Public Dataset by Olist from Db2
+
+##### 5.1.4. Insert Db2 Credentials into the Notebook
 
 #### 5.2. Run the Notebook
 
