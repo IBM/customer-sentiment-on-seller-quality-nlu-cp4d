@@ -74,10 +74,10 @@ We have successfully created a project and added Db2 Connection to our project. 
 
 * Once the notebook is created we will have to fill in 4 Cells with the following: 
 
-      1. Watson Natural Language Understanding Credentials
-      2. Upload the Consumer Reviews of Amazon Products dataset and insert Pandas Dataframe
-      3. Insert the Customised version of Brazilian E-Commerce Public Dataset by Olist from Db2
-      4. Insert Db2 Credentials into the Notebook
+i. Watson Natural Language Understanding Credentials
+ii. Upload the Consumer Reviews of Amazon Products dataset and insert Pandas Dataframe
+iii. Insert the Customised version of Brazilian E-Commerce Public Dataset by Olist from Db2
+iv. Insert Db2 Credentials into the Notebook
       
 
 #### 5.2. Run the Notebook
