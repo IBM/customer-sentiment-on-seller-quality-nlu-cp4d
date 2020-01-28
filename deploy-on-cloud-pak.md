@@ -79,18 +79,37 @@ We have successfully created a project and added Db2 Connection to our project. 
   - Insert Db2 Credentials into the Notebook
  
 ##### 5.1.1. Watson Natural Language Understanding Credentials
-Insert the credentials copied from [step 2](#2-create-a-watson-natural-language-understanding-service) in the cell shown below.
+* Insert the credentials copied from [step 2](#2-create-a-watson-natural-language-understanding-service) in the cell shown below.
 
 ![nluCredentials](doc/source/images/nluCredentials.png)
 
 ##### 5.1.2. Upload the Consumer Reviews of Amazon Products dataset and insert Pandas Dataframe
-Click on the **Assets** tab, and select **browse**, from the file uploader select the extracted file from [step 1](#1-download-the-dataset) named **Datafiniti_Amazon_Consumer_Reviews_of_Amazon_Products_May19.csv** from the **Consumer Reviews of Amazon Products**.
+
+* Click on the **Assets** tab, and select **browse**, from the file uploader select the extracted file from [step 1](#1-download-the-dataset) named **Datafiniti_Amazon_Consumer_Reviews_of_Amazon_Products_May19.csv** from the **Consumer Reviews of Amazon Products**.
 
 ![uploadDataset](doc/source/images/uploadDatasetCp4d.gif) 
 
+* Once the Dataset is uploaded, click on the cell which says _"Insert Customer Review Dataset here"_, click on **`Insert to code > Insert Pandas Dataframe`**. You will see the code to read the dataset in the cell. Finally replace the variable name to **data** as shown.
+
+![insertPandasDf](doc/source/images/insertPandasDfCp4d.gif)
+
 ##### 5.1.3. Insert the Customised version of Brazilian E-Commerce Public Dataset by Olist from Db2
 
+* Select the cell which says _"Insert Customer Order Details Dataset here"_, click on **Connections** in the assets tab and select **`Insert to code > Insert Pandas Dataframe`** from your Db2 Connection variable. Select the Schema of your table and choose **DERIVEDDATA** and click on _Select_.
+
+>NOTE: If you have used Db2 Instance then the schema name is your _Username_.
+
+* Once the credentials are inserted, replace the variable name to **data2** as shown.
+
+![insertPandasDf](doc/source/images/insertPandasDfForDBCp4d.gif)
+
 ##### 5.1.4. Insert Db2 Credentials into the Notebook
+
+* Select the cell which says _"Insert Db2 Connection Credentials here"_, click on **Connections** in the assets tab and select **`Insert to code > Insert Credentials`** from your Db2 Connection variable.
+
+* Once the credentials are inserted, replace the variable name to **`credentials_1`** as shown.
+
+![insertDbCredentials](doc/source/images/insertDbCredentialsCp4d.gif) 
 
 #### 5.2. Run the Notebook
 
