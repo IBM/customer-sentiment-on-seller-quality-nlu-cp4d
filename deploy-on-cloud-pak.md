@@ -34,7 +34,7 @@ We will be using Watson Natural Language Understanding service to read the comme
 
 * Once the service is created copy the **API Key** and **URL** of the service as shown. 
 
-![nluCredentials](doc/source/images/nluCredentials.png) 
+![nluCredentials](doc/source/images/nluCredentials2.png) 
 
 **NOTE: These credentials are important as it will be used in [step 5](#5-prepare-and-run-the-jupyter-notebook)**
 
