@@ -4,8 +4,8 @@
 
 1. [Download the Dataset](#1-download-the-dataset)
 2. [Create a Watson Natural Language Understanding Service](#2-create-a-watson-natural-language-understanding-service)
-3. [Create a Project](#3-create-a-project) _(Already completed as a part of the Tutorial)_
-4. [Add Db2 Connection to the Project](#4-add-db2-connection-to-the-project) _(Already completed as a part of the Tutorial)_
+3. [Create a Project](#3-create-a-project) **_(Already completed as a part of the Tutorial)_**
+4. [Add Db2 Connection to the Project](#4-add-db2-connection-to-the-project) **_(Already completed as a part of the Tutorial)_**
 5. [Prepare and Run the Jupyter Notebook](#5-prepare-and-run-the-jupyter-notebook)
 6. [Create Embedded Dashboard Service](#6-create-ibm-streaming-analytics-service)
 7. [Visualize the Dashboard](#7-visualize-the-dashboard)
