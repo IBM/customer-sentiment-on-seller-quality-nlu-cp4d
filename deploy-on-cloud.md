@@ -4,7 +4,7 @@
 
 1. [Download the Dataset](#1-download-the-dataset)
 2. [Create Watson Natural Language Understanding Service](#2-create-a-watson-natural-language-understanding-service)
-3. [Create Watson Studio Service](#3-create-watson-studio-service)
+3. [Create Watson Studio Service](#3-create-watson-studio-service) 
 4. [Add Db2 Connection to the Project](#4-add-db2-connection-to-the-project)
 5. [Prepare and Run the Jupyter Notebook](#5-prepare-and-run-the-jupyter-notebook)
 6. [Create Embedded Dashboard Service](#6-create-ibm-streaming-analytics-service)
@@ -29,7 +29,7 @@ that the products from the **Customised version of Brazilian E-Commerce Public D
 ### 2. Create Watson Natural Language Understanding Service
 
 
-### 3. Create Watson Studio Service
+### 3. Create Watson Studio Service _(You will have already completed this step as a part of the Tutorial, use the same project)_
 
 * Create [**Watson Studio**](https://cloud.ibm.com/catalog/services/watson-studio) service.
 
@@ -41,7 +41,7 @@ that the products from the **Customised version of Brazilian E-Commerce Public D
 
 ![watsonstudioproject](/doc/source/images/watsonstudioproject.png)
 
-### 4. Add Db2 Connection to the Project
+### 4. Add Db2 Connection to the Project _(You will have already completed this step as a part of the Tutorial, use the same project)_
 
 Now that we have created a project, we will start adding components to our project. We will start by adding Db2 Connection to our project first.
 
