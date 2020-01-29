@@ -41,6 +41,9 @@ Follow the **Deploy on Cloud Pak for Data** Tutorial if you wish to deploy on Cl
 
 Follow the tutorial to deploy on Cloud Pak for Data.
 
+
+[button url="http://www.google.com"]
+
 - [Deploy on Cloud Pak for Data](https://github.com/IBM/customer-sentiment-on-seller-quality-nlu-cp4d/blob/master/deploy-on-cloud-pak.md)
 
 ## Deploy on IBM Cloud
