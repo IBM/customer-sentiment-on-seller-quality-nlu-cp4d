@@ -108,7 +108,7 @@ We have successfully created a project and added Db2 Connection to our project. 
 
 After all the Preperations are done, we will run the Jupyter Notebook by Clicking on **`Cell > Run All`** as shown.
 
-![runAllCells](doc/source/images/runAllCellscloud.png)
+![runAllCells](doc/source/images/runAllCellsCloud.png)
 
 **NOTE: It will take around 25 Min - 30 Min to complete the execution of entire notebook, please be Patient!**
 
