@@ -4,8 +4,8 @@
 
 1. [Download the Dataset](#1-download-the-dataset)
 2. [Create a Watson Natural Language Understanding Service](#2-create-a-watson-natural-language-understanding-service)
-3. [Create a Project](#3-create-a-project)
-4. [Add Db2 Connection to the Project](#4-add-db2-connection-to-the-project)
+3. [Create a Project](#3-create-a-project) _(Already completed as a part of the Tutorial)_
+4. [Add Db2 Connection to the Project](#4-add-db2-connection-to-the-project) _(Already completed as a part of the Tutorial)_
 5. [Prepare and Run the Jupyter Notebook](#5-prepare-and-run-the-jupyter-notebook)
 6. [Create Embedded Dashboard Service](#6-create-ibm-streaming-analytics-service)
 7. [Visualize the Dashboard](#7-visualize-the-dashboard)
@@ -38,7 +38,7 @@ We will be using Watson Natural Language Understanding service to read the comme
 
 **NOTE: These credentials are important as it will be used in [step 5](#5-prepare-and-run-the-jupyter-notebook)**
 
-### 3. Create a Project
+### 3. Create a Project  _(You will have already completed this step as a part of the Tutorial, use the same project)_
 
 * Create a Project in Cloud Pak for Data choose an Empty Project.
 
@@ -48,7 +48,7 @@ We will be using Watson Natural Language Understanding service to read the comme
 
 ![projectDashboard](doc/source/images/projectDashboard.png)
 
-### 4. Add Db2 Connection to the Project
+### 4. Add Db2 Connection to the Project _(You will have already completed this step as a part of the Tutorial, use the same project)_
 
 Now that we have created a project, we will start adding components to our project. We will start by adding Db2 Connection to our project first.
 
