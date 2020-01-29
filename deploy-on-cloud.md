@@ -28,6 +28,16 @@ that the products from the **Customised version of Brazilian E-Commerce Public D
 
 ### 2. Create Watson Natural Language Understanding Service
 
+We will be using Watson Natural Language Understanding service to read the comments of the customer and analyse the Sentiment and Emotions of the Customers review.
+
+* Create a [Watson Natural Language Understanding](https://cloud.ibm.com/catalog/services/natural-language-understanding) service on IBM Cloud.
+
+* Once the service is created copy the **API Key** and **URL** of the service as shown. 
+
+![nluCredentials](doc/source/images/nluCredentials2.png) 
+
+**NOTE: These credentials are important as it will be used in [step 5](#5-prepare-and-run-the-jupyter-notebook)**
+
 
 ### 3. Create Watson Studio Service _(You will have already completed this step as a part of the Tutorial, use the same project)_
 
