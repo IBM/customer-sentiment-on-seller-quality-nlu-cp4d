@@ -55,6 +55,62 @@ Now that we have created a project, we will start adding components to our proje
 
 ### 5. Prepare and Run the Jupyter Notebook
 
+We have successfully created a project and added Db2 Connection to our project. We will now add the required credentials to our python Jupyter notebook and run the notebook.
+
+#### 5.1. Prepare the Notebook
+* Add Jupyter notebook to the Project by clicking on **Add to Project** and select **Notebook**. Click on **New Notebook from URL** and paste the below URL and create a Notebook.
+  - [https://github.com/IBM/customer-sentiment-on-seller-quality-nlu-cp4d/blob/master/notebook/customer-sentiment-on-seller.ipynb](https://github.com/IBM/customer-sentiment-on-seller-quality-nlu-cp4d/blob/master/notebook/customer-sentiment-on-seller.ipynb)
+
+![createJupyterNotebook](doc/source/images/createJupyterNb.gif)
+
+* Once the notebook is created we will have to fill in 4 Cells with the following: 
+  - Watson Natural Language Understanding Credentials
+  - Upload the Consumer Reviews of Amazon Products dataset and insert Pandas Dataframe
+  - Insert the Customised version of Brazilian E-Commerce Public Dataset by Olist from Db2
+  - Insert Db2 Credentials into the Notebook
+ 
+##### 5.1.1. Watson Natural Language Understanding Credentials
+* Insert the credentials copied from [step 2](#2-create-a-watson-natural-language-understanding-service) in the cell shown below.
+
+![nluCredentials](doc/source/images/nluCredentials.png)
+
+##### 5.1.2. Upload the Consumer Reviews of Amazon Products dataset and insert Pandas Dataframe
+
+* Click on the **Assets** tab, and select **browse**, from the file uploader select the extracted file from [step 1](#1-download-the-dataset) named **Datafiniti_Amazon_Consumer_Reviews_of_Amazon_Products_May19.csv** from the **Consumer Reviews of Amazon Products**.
+
+![uploadDataset](doc/source/images/uploadDataset.gif) 
+
+* Once the Dataset is uploaded, click on the cell which says _"Insert Customer Review Dataset here"_, click on **`Insert to code > Insert Pandas Dataframe`**. You will see the code to read the dataset in the cell. 
+
+* Finally replace the variable name to **data** as shown.
+
+![insertPandasDf](doc/source/images/insertPandasDf.gif)
+
+##### 5.1.3. Insert the Customised version of Brazilian E-Commerce Public Dataset by Olist from Db2
+
+* Select the cell which says _"Insert Customer Order Details Dataset here"_, click on **Connections** in the assets tab and select **`Insert to code > Insert Pandas Dataframe`** from your Db2 Connection variable. Select the Schema of your table and choose **DERIVEDDATA** and click on _Select_.
+
+>NOTE: If you have used Db2 Instance then the schema name is your _Username_.
+
+* Once the credentials are inserted, replace the variable name to **data2** as shown.
+
+![insertPandasDf](doc/source/images/insertPandasDfForDB.gif)
+
+##### 5.1.4. Insert Db2 Credentials into the Notebook
+
+* Select the cell which says _"Insert Db2 Connection Credentials here"_, click on **Connections** in the assets tab and select **`Insert to code > Insert Credentials`** from your Db2 Connection variable.
+
+* Once the credentials are inserted, replace the variable name to **`credentials_1`** as shown.
+
+![insertDbCredentials](doc/source/images/insertDbCredentials.gif) 
+
+#### 5.2. Run the Notebook
+
+After all the Preperations are done, we will run the Jupyter Notebook by Clicking on **`Cell > Run All`** as shown.
+
+![runAllCells](doc/source/images/runAllCells.png)
+
+**NOTE: It will take around 25 Min - 30 Min to complete the execution of entire notebook, please be Patient!**
 
 ### 6. Create Embedded Dashboard Service
 ### 7. Visualize the Dashboard
