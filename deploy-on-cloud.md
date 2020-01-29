@@ -27,8 +27,34 @@ As we don’t have a proper dataset with product reviews and product delivery st
 that the products from the **Customised version of Brazilian E-Commerce Public Dataset by Olist** and the **Consumer Reviews of Amazon Products** are the same.
 
 ### 2. Create Watson Natural Language Understanding Service
+
+
 ### 3. Create Watson Studio Service
+
+* Create [**Watson Studio**](https://cloud.ibm.com/catalog/services/watson-studio) service.
+
+![createwatsonstudio](/doc/source/images/createwatsonstudio.png)
+
+* Then click on **Get Started**.
+
+* In Watson Studio click **`Create a project > Create an empty project`** and name it **_`Retail`_**.
+
+![watsonstudioproject](/doc/source/images/watsonstudioproject.png)
+
 ### 4. Add Db2 Connection to the Project
+
+Now that we have created a project, we will start adding components to our project. We will start by adding Db2 Connection to our project first.
+
+* Click on **Add to Project** and select **Connection**. If you have followed [step 2](#2-load-the-data-into-tables-in-db2) select **Db2** from the list and add the credentials of your provisioned Db2 Instance. If you have a different database then you can select that and fill in the credentials.
+
+![gif](doc/source/images/create_connection2.gif)
+
+* After filling the credentials click on **Create**.
+
+![connection](doc/source/images/connImage2.png)
+
 ### 5. Prepare and Run the Jupyter Notebook
+
+
 ### 6. Create Embedded Dashboard Service
 ### 7. Visualize the Dashboard
