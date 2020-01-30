@@ -7,8 +7,8 @@
 3. [Create a Project](#3-create-a-project) **_(Already completed as a part of the Tutorial)_**
 4. [Add Db2 Connection to the Project](#4-add-db2-connection-to-the-project) **_(Already completed as a part of the Tutorial)_**
 5. [Prepare and Run the Jupyter Notebook](#5-prepare-and-run-the-jupyter-notebook)
-6. [Create Embedded Dashboard Service](#6-create-ibm-streaming-analytics-service)
-7. [Visualize the Dashboard](#7-visualize-the-dashboard)
+6. [Create Embedded Dashboard Service](#6-create-ibm-streaming-analytics-service) **_(Covered in a separate Tutorial)_**
+7. [Visualize the Dashboard](#7-visualize-the-dashboard)**_(Covered in a separate Tutorial)_**
 
 ### 1. Download the Dataset
 In this Code Pattern we are going to use **Customised version of Brazilian E-Commerce Public Dataset by Olist** that we created in the Tutorial [Prepare your Dataset for your ML Models using Data Refinery from Db2](https://github.com/IBM/prepare-your-dataset-using-data-refinery-from-db2-cp4d).
