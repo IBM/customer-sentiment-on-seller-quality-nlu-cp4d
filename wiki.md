@@ -48,15 +48,9 @@ Customer Sentiment on seller quality with NLU on Cloud Pak for Data
 
 > Find the detailed steps for this pattern in the [readme file](https://github.com/IBM/customer-sentiment-on-seller-quality-nlu-cp4d/blob/master/README.md)
 
-## Deploy on Cloud Pak for Data
-
-Follow the tutorial to deploy on Cloud Pak for Data.
+The Code Pattern can be deployed on either Cloud Pak for Data or IBM Cloud. Please follow the respective Instructions to deploy.
 
 - [Deploy on Cloud Pak for Data](https://github.com/IBM/customer-sentiment-on-seller-quality-nlu-cp4d/blob/master/deploy-on-cloud-pak.md)
-
-## Deploy on IBM Cloud
-
-Follow the tutorial to deploy on IBM Cloud.
 
 - [Deploy on IBM Cloud](https://github.com/IBM/customer-sentiment-on-seller-quality-nlu-cp4d/blob/master/deploy-on-cloud.md)
 
