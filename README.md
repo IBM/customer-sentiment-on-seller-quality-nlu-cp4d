@@ -35,17 +35,17 @@ When you have completed this code pattern, you will understand how to:
 
 ## Steps
 
-Follow the **Deploy on Cloud Pak for Data** Tutorial if you wish to deploy on Cloud Pak for Data or **Deploy on IBM Cloud** Tutorial if you wish to deploy on IBM Cloud.
+Follow the **Deploy on Cloud Pak for Data** Instructions if you wish to deploy on Cloud Pak for Data or **Deploy on IBM Cloud** Instructions if you wish to deploy on IBM Cloud.
 
 ## Deploy on Cloud Pak for Data
 
-Follow the tutorial to deploy on Cloud Pak for Data.
+Follow the Instructions to deploy on Cloud Pak for Data.
 
 - [Deploy on Cloud Pak for Data](https://github.com/IBM/customer-sentiment-on-seller-quality-nlu-cp4d/blob/master/deploy-on-cloud-pak.md)
 
 ## Deploy on IBM Cloud
 
-Follow the tutorial to deploy on IBM Cloud.
+Follow the Instructions to deploy on IBM Cloud.
 
 - [Deploy on IBM Cloud](https://github.com/IBM/customer-sentiment-on-seller-quality-nlu-cp4d/blob/master/deploy-on-cloud.md)
 
