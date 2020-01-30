@@ -119,7 +119,10 @@ After all the Preperations are done, we will run the Jupyter Notebook by Clickin
 
 ![runAllCells](doc/source/images/runAllCellscp4d.png)
 
-**NOTE: It will take around 25 Min - 30 Min to complete the execution of entire notebook, please be Patient!**
+**NOTE: It will take around 20 Min to complete the execution of entire notebook, please be Patient!**
 
-### 6. Create Embedded Dashboard Service
-### 7. Visualize the Dashboard
+### 6. & 7. Create Embedded Dashboard Service & Visualize the Dashboard
+
+This Code pattern generates the Dataset for customer sentiments on seller quality. Further the data can be visualised in an Interactive Embedded Dashboard with IBM Embedded Dashboard Service. Connection of Embedded Dashboard Service to the project is covered as separate Tutorial which is a part of this series. Please follow the Tutorial Below to Visualise Data in Embedded Dashboard. 
+
+- [Building Embedded Dashboard on Cloud Pak for Data or IBM Cloud](https://github.com/IBM/building-embedded-dashboard-cp4d)
