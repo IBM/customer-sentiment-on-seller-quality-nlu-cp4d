@@ -34,7 +34,15 @@ Customer Sentiment on seller quality with NLU on Cloud Pak for Data
 
 # Flow
 
-![Architecture]()
+<!--add an image in this path-->
+![architecture](doc/source/images/architecture.png)
+
+<!--Optionally, add flow steps based on the architecture diagram-->
+
+1. Create a connection for the refined data in db2 into IBM Watson Studio project in Cloud Pak for Data
+2. Setup Jupyter Notebook that reads the dataset from the IBM db2 Connection
+3. Run the Algorithm from Jupyter notebook that computes the seller rating with the help of Watson Natural Language Understanding on Cloud Pak for Data
+4. Visualise insights from the data using Watson Embedded Dashboard on Cloud Pak for Data
 
 # Instructions
 
