@@ -7,8 +7,8 @@
 3. [Create Watson Studio Service](#3-create-watson-studio-service) **_(Already completed as a part of the Tutorial)_**
 4. [Add Db2 Connection to the Project](#4-add-db2-connection-to-the-project) **_(Already completed as a part of the Tutorial)_**
 5. [Prepare and Run the Jupyter Notebook](#5-prepare-and-run-the-jupyter-notebook)
-6. [Create Embedded Dashboard Service](#6-create-ibm-streaming-analytics-service) **_(Covered as a separate Tutorial)_**
-7. [Visualize the Dashboard](#7-visualize-the-dashboard) **_(Covered as a separate Tutorial)_**
+6. [Create Embedded Dashboard Service](#6-create-embedded-dashboard-service)
+7. [Visualize the Dashboard](#7-visualize-the-dashboard)
 
 ### 1. Download the Dataset
 In this Code Pattern we are going to use **Customised version of Brazilian E-Commerce Public Dataset by Olist** that we created in the Tutorial [Prepare your Dataset for your ML Models using Data Refinery from Db2](https://github.com/IBM/prepare-your-dataset-using-data-refinery-from-db2-cp4d).
@@ -122,8 +122,63 @@ After all the Preperations are done, we will run the Jupyter Notebook by Clickin
 
 **NOTE: It will take around 20 Min to complete the execution of entire notebook, please be Patient!**
 
-### 6. & 7. Create Embedded Dashboard Service & Visualize the Dashboard
+### 6. Create Embedded Dashboard Service & Add to Project
 
-This Code pattern generates the Dataset for customer sentiments on seller quality. Further the data can be visualised in an Interactive Embedded Dashboard with IBM Embedded Dashboard Service. Connection of Embedded Dashboard Service to the project is covered as separate Tutorial which is a part of this series. Please follow the Tutorial Below to Visualise Data in Embedded Dashboard. 
+The Jupyter Notebook generated the Dataset for customer sentiments on seller quality. Further the data can be visualised in an Interactive Embedded Dashboard with IBM Embedded Dashboard Service.
 
-- [Building Embedded Dashboard on Cloud Pak for Data or IBM Cloud](https://github.com/IBM/building-embedded-dashboard-cp4d)
+- Create an [Embedded Dashboard Service](https://cloud.ibm.com/catalog/services/ibm-cognos-dashboard-embedded) on IBM Cloud.
+
+- From the [IBM Cloud Resources](https://cloud.ibm.com/resources) open the Watson Studio and load the project **Retail**.
+
+- Add Embedded Dashboard to the Project by clicking on **Add to Project** and select **Dashboard**. Click on **from file** and upload the file [`dashboard/dashboard.json`](dashboard/dashboard.json) and select the newly created Embedded service.
+
+![dashboard](doc/source/images/addEmbeddedDashboardcloud.gif)
+
+- Once the _`dashboard.json`_ file is loaded it may ask you to enter username and password. Enter the database username and password used in [step 4](#4-add-db2-connection-to-the-project).
+
+![credentials](doc/source/images/credentialsDb2.png)
+
+### 7. Visualize the Dashboard
+
+- You will see a dashboard as shown.
+
+![visualize](doc/source/images/visualize1.png)
+
+- The components in the dashboard are:
+
+  - **_Analysis by Sellers_** : You can click on any seller name to visualize ratings of that perticular seller.
+  - _**Analysis by Products**_ : Similar to analysis by sellers, you can click on products name to visualize the perticular product's ratings.
+  - _**Seller Satisfaction Score**_ : For selected seller and product, the seller satisfaction score can be viewed.
+  - _**Products Ratings by Seller Graph**_ : You can see the graph of every sellers with their products and the respected ratings.
+  - _**Customers Emotion**_ : For selected Product and seller, along with Seller Satisfaction Score, Customers Emotions can be visualized.
+
+- Conclusion that can be drawn from the Dashboard Visualization are:
+
+  - For the product _Alexa_ customers emotions were **mixed** i.e. joy, anger and sad. Based on the sentiments and emotions from the reviews and order delivery status, Watson Natural Language Understanding gave the highest seller satisfaction score of **3.38** for **seller3** which can be visualized by selecting Alexa and Seller3 as shown.
+  ![visualize](doc/source/images/visualize3.png)
+
+  - For the product _Batteries_ customers emotions were **joy**. Based on the sentiments and emotions from the reviews and order delivery status, Watson Natural Language Understanding gave the highest seller satisfaction score of **3.53** for **seller4** which can be visualized by selecting Batteries and Seller4 as shown.
+  ![visualize](doc/source/images/visualize2.png)
+
+  - For the product _Fire HD_ customers emotions were **mixed** i.e. joy, disgust and sad. Based on the sentiments and emotions from the reviews and order delivery status, Watson Natural Language Understanding gave the highest seller satisfaction score of **3.27** for **seller4** which can be visualized by selecting Fire HD and Seller4 as shown.
+  ![visualize](doc/source/images/visualize4.png)
+
+  - For the product _Kindle_ customers emotions were **joy**. Based on the sentiments and emotions from the reviews and order delivery status, Watson Natural Language Understanding gave the highest seller satisfaction score of **3.29** for **seller2** which can be visualized by selecting Batteries and Seller2 as shown.
+  ![visualize](doc/source/images/visualize5.png)
+
+  - For the product _Tablet 8in_ customers emotions were **mixed** i.e. joy, disgust and fear. Based on the sentiments and emotions from the reviews and order delivery status, Watson Natural Language Understanding gave the highest seller satisfaction score of **3.22** for **seller3** which can be visualized by selecting Tablet 8in and Seller3 as shown.
+  ![visualize](doc/source/images/visualize6.png)
+
+- Hence the following products can be brought from the following sellers.
+
+  | Product | Seller to buy from | Seller Rating |
+  |---------|--------------------|---------------|
+  | Alexa   | Seller3 | 3.38|
+  | Batteries   | Seller4 | 3.53|
+  | Fire HD   | Seller4 | 3.27|
+  | Kindle   | Seller2 | 3.29|
+  | Tablet 8in   | Seller3 | 3.22|
+
+- Further if you want to play around with the dashboard you can do so by reffering to the following tutorial.
+  
+  - <https://developer.ibm.com/tutorials/create-interactive-dashboards-on-watson-studio/>
