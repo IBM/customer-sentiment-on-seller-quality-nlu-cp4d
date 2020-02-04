@@ -7,8 +7,8 @@
 3. [Create a Project](#3-create-a-project) **_(Already completed as a part of the Tutorial)_**
 4. [Add Db2 Connection to the Project](#4-add-db2-connection-to-the-project) **_(Already completed as a part of the Tutorial)_**
 5. [Prepare and Run the Jupyter Notebook](#5-prepare-and-run-the-jupyter-notebook)
-6. [Create Embedded Dashboard Service](#6-create-ibm-streaming-analytics-service) **_(Covered in a separate Tutorial)_**
-7. [Visualize the Dashboard](#7-visualize-the-dashboard)**_(Covered in a separate Tutorial)_**
+6. [Add Embedded Dashboard to the Project](#6-add-embedded-dashboard-to-the-project) 
+7. [Visualize the Dashboard](#7-visualize-the-dashboard)
 
 ### 1. Download the Dataset
 In this Code Pattern we are going to use **Customised version of Brazilian E-Commerce Public Dataset by Olist** that we created in the Tutorial [Prepare your Dataset for your ML Models using Data Refinery from Db2](https://github.com/IBM/prepare-your-dataset-using-data-refinery-from-db2-cp4d).
@@ -121,8 +121,9 @@ After all the Preperations are done, we will run the Jupyter Notebook by Clickin
 
 **NOTE: It will take around 20 Min to complete the execution of entire notebook, please be Patient!**
 
-### 6. & 7. Create Embedded Dashboard Service & Visualize the Dashboard
+### 6. Add Embedded Dashboard to the Project
 
-This Code pattern generates the Dataset for customer sentiments on seller quality. Further the data can be visualised in an Interactive Embedded Dashboard with IBM Embedded Dashboard Service. Connection of Embedded Dashboard Service to the project is covered as separate Tutorial which is a part of this series. Please follow the Tutorial Below to Visualise Data in Embedded Dashboard. 
+The Jupyter Notebook generated the Dataset for customer sentiments on seller quality. Further the data can be visualised in an Interactive Embedded Dashboard with IBM Embedded Dashboard Service. 
 
-- [Building Embedded Dashboard on Cloud Pak for Data or IBM Cloud](https://github.com/IBM/building-embedded-dashboard-cp4d)
+
+
