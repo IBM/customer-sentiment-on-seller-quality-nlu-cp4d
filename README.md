@@ -1,16 +1,16 @@
 # Customer sentiment on seller quality with Watson Natural Language Understanding on Cloud Pak for Data
 
-In this code pattern, we will analyse the seller's quality by understanding the sentiments and emotions of reviews given by customers to the sellers and using Watson Natural Language Understanding on Cloud Pak for Data. 
+In this code pattern, we will analyse the seller's quality by understanding the sentiments and emotions of reviews given by customers to the sellers using Watson Natural Language Understanding on Cloud Pak for Data. 
 
 In any E-Commerce website the product sellers have a rating between 0 to 5 stars which are explicitly given by the customers based on the product that have been purchased. Considering this rating into account the customers feel confident enough to purchase products from the particular seller. 
 
-The rating which is given to the seller on e-commerce platform is just a rating given explicitly by the customers and does not make more impact to the sellers quality. We are adding more parameters to this rating to make it stronger and more impacting. We read the product reviews of a seller and analyse the sentiment and emotion behind the review with Watson Natural Language Understanding and compute a score, we also analyse the delivery status of the product and whether the product is delivered on or before the estimated date of delivery and compute another score, finally we add up these scores to get a seller quality rating between 0 to 5 stars which makes more impact to the seller ratings.
+The rating which is given to a seller on e-commerce platform is just a rating given explicitly by the customers and does not make more impact to the sellers quality. We are adding more parameters to this rating to make it stronger and more impactful. We read the product reviews of a seller and analyse the sentiment and emotion behind the review with Watson Natural Language Understanding and compute a score, we also analyse the delivery status of the product and whether the product is delivered on or before the estimated date of delivery and compute another score, finally we sum up these scores to get a seller quality rating between 0 to 5 stars which makes more impact to the seller ratings.
 
 When you have completed this code pattern, you will understand how to:
 
 * Use advanced NLP to analyze text and extract meta-data from content such as sentiment, emotion, relations, etc.
 * Run small pieces of code to process your data and immediately view the results with Jupyter Notebook.
-* 
+* Use Data Refinery to prepare training data for an Machine Learning task.
 * Build Interactive dashboards and produce visualizations directly from your data in real-time with Embedded Dashboard.
 
 <!--add an image in this path-->
