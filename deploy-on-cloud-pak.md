@@ -179,11 +179,11 @@ The Jupyter Notebook generated the Dataset for customer sentiments on seller qua
 
   | Product | Seller to buy from | Seller Rating |
   |---------|--------------------|---------------|
-  | Alexa   | Seller3 | 3.38 :r-full-star: |
-  | Batteries   | Seller4 | 3.53 :r-full-star::r-full-star::r-full-star::r-half-star::r-blank-star:|
-  | Fire HD   | Seller4 | 3.27 :r-full-star::r-full-star::r-full-star::r-half-star::r-blank-star:|
-  | Kindle   | Seller2 | 3.29 :r-full-star::r-full-star::r-full-star::r-half-star::r-blank-star:|
-  | Tablet 8in   | Seller3 | 3.22 :r-full-star::r-full-star::r-full-star::r-half-star::r-blank-star:|
+  | Alexa   | Seller3 | 3.38 |
+  | Batteries   | Seller4 | 3.53 |
+  | Fire HD   | Seller4 | 3.27 |
+  | Kindle   | Seller2 | 3.29 |
+  | Tablet 8in   | Seller3 | 3.22|
 
 - Further if you want to play around with the dashboard you can do so by reffering to the following tutorial.
   
