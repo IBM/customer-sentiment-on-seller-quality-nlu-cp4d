@@ -148,8 +148,8 @@ The Jupyter Notebook generated the Dataset for customer sentiments on seller qua
 
 - The components in the dashboard are:
 
-  - **_Analysis by Sellers_** : You can click on any seller name to visualize ratings of that perticular seller.
-  - _**Analysis by Products**_ : Similar to analysis by sellers, you can click on products name to visualize the perticular product's ratings.
+  - **_Analysis by Sellers_** : You can click on any seller name to visualize ratings of that particular seller.
+  - _**Analysis by Products**_ : Similar to analysis by sellers, you can click on products name to visualize the particular product's ratings.
   - _**Seller Satisfaction Score**_ : For selected seller and product, the seller satisfaction score can be viewed.
   - _**Products Ratings by Seller Graph**_ : You can see the graph of every sellers with their products and the respected ratings.
   - _**Customers Emotion**_ : For selected Product and seller, along with Seller Satisfaction Score, Customers Emotions can be visualized.
