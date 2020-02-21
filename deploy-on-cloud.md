@@ -57,7 +57,7 @@ We will be using Watson Natural Language Understanding service to read the comme
 
 Now that we have created a project, we will start adding components to our project. We will start by adding Db2 Connection to our project first.
 
-* Click on **Add to Project** and select **Connection**. If you have followed [step 2](#2-load-the-data-into-tables-in-db2) select **Db2** from the list and add the credentials of your provisioned Db2 Instance. If you have a different database then you can select that and fill in the credentials.
+* Click on **Add to Project** and select **Connection**. If you have followed [step 2](#2-create-watson-natural-language-understanding-service) select **Db2** from the list and add the credentials of your provisioned Db2 Instance. If you have a different database then you can select that and fill in the credentials.
 
 ![gif](doc/source/images/create_connection2.gif)
 
