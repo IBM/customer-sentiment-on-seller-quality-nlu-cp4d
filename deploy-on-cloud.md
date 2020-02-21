@@ -150,6 +150,8 @@ The Jupyter Notebook generated the Dataset for customer sentiments on seller qua
 
 ![visualize](doc/source/images/visualize1.png)
 
+**NOTE: If the Dashboard takes along time to load, clear your browsing data & cache then reload.**
+
 - The components in the dashboard are:
 
   - **_Analysis by Sellers_** : You can click on any seller name to visualize ratings of that particular seller.
