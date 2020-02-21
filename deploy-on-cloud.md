@@ -39,7 +39,8 @@ We will be using Watson Natural Language Understanding service to read the comme
 **NOTE: These credentials are important as it will be used in [step 5](#5-prepare-and-run-the-jupyter-notebook)**
 
 
-### 3. Create Watson Studio Service _(You will have already completed this step as a part of the Tutorial, use the same project)_
+### 3. Create Watson Studio Service 
+### _(You will have already completed this step as a part of the Tutorial, use the same project)_###
 
 * Create [**Watson Studio**](https://cloud.ibm.com/catalog/services/watson-studio) service.
 
@@ -51,7 +52,8 @@ We will be using Watson Natural Language Understanding service to read the comme
 
 ![watsonstudioproject](/doc/source/images/watsonstudioproject.png)
 
-### 4. Add Db2 Connection to the Project _(You will have already completed this step as a part of the Tutorial, use the same project)_
+### 4. Add Db2 Connection to the Project 
+### _(You will have already completed this step as a part of the Tutorial, use the same project)_
 
 Now that we have created a project, we will start adding components to our project. We will start by adding Db2 Connection to our project first.
 
