@@ -27,7 +27,7 @@ _`Datafiniti_Amazon_Consumer_Reviews_of_Amazon_Products_May19.csv`_ : This datas
 As we don’t have a proper dataset with product reviews and product delivery status, we are cooking up the dataset by _assuming_
 that the products from the **Customised version of Brazilian E-Commerce Public Dataset by Olist** and the **Consumer Reviews of Amazon Products** are the same.
 
-### 2. Create a Watson Natural Language Understanding Service
+### 2. Create Watson Natural Language Understanding Service
 
 We will be using Watson Natural Language Understanding service to read the comments of the customer and analyse the Sentiment and Emotions of the Customers review.
 
