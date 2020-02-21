@@ -3,7 +3,7 @@
 ## Steps
 
 1. [Download the Dataset](#1-download-the-dataset)
-2. [Create a Watson Natural Language Understanding Service](#2-create-a-watson-natural-language-understanding-service)
+2. [Create Watson Natural Language Understanding Service](#2-create-watson-natural-language-understanding-service)
 3. [Create a Project](#3-create-a-project) **_(Already completed as a part of the Tutorial)_**
 4. [Add Db2 Connection to the Project](#4-add-db2-connection-to-the-project) **_(Already completed as a part of the Tutorial)_**
 5. [Prepare and Run the Jupyter Notebook](#5-prepare-and-run-the-jupyter-notebook)
@@ -39,7 +39,8 @@ We will be using Watson Natural Language Understanding service to read the comme
 
 **NOTE: These credentials are important as it will be used in [step 5](#5-prepare-and-run-the-jupyter-notebook)**
 
-### 3. Create a Project  _(You will have already completed this step as a part of the Tutorial, use the same project)_
+### 3. Create a Project  
+### _(You will have already completed this step as a part of the Tutorial, use the same project)_
 
 - Create a Project in Cloud Pak for Data choose an Empty Project.
 
@@ -49,11 +50,12 @@ We will be using Watson Natural Language Understanding service to read the comme
 
 ![projectDashboard](doc/source/images/projectDashboard.png)
 
-### 4. Add Db2 Connection to the Project _(You will have already completed this step as a part of the Tutorial, use the same project)_
+### 4. Add Db2 Connection to the Project 
+### _(You will have already completed this step as a part of the Tutorial, use the same project)_
 
 Now that we have created a project, we will start adding components to our project. We will start by adding Db2 Connection to our project first.
 
-- Click on **Add to Project** and select **Connection**. If you have followed [step 2](#2-load-the-data-into-tables-in-db2) select **Db2** from the list and add the credentials of your provisioned Db2 Instance. If you have a different database then you can select that and fill in the credentials.
+- Click on **Add to Project** and select **Connection**. If you have followed [step 2](#2-create-watson-natural-language-understanding-service) select **Db2** from the list and add the credentials of your provisioned Db2 Instance. If you have a different database then you can select that and fill in the credentials.
 
 ![gif](doc/source/images/create_connection.gif)
 
@@ -82,7 +84,7 @@ We have successfully created a project and added Db2 Connection to our project. 
 
 ##### 5.1.1. Watson Natural Language Understanding Credentials
 
-- Insert the credentials copied from [step 2](#2-create-a-watson-natural-language-understanding-service) in the cell shown below.
+- Insert the credentials copied from [step 2](#2-create-watson-natural-language-understanding-service) in the cell shown below.
 
 ![nluCredentials](doc/source/images/nluCredentials.png)
 
@@ -135,6 +137,10 @@ The Jupyter Notebook generated the Dataset for customer sentiments on seller qua
 - Once the _`dashboard.json`_ file is loaded it may ask you to enter username and password. Enter the database username and password used in [step 4](#4-add-db2-connection-to-the-project).
 
 ![credentials](doc/source/images/credentialsDb.png)
+
+- The Dashboard will give you a prompt to relink the data asset (as the database schema of my Db2 and your Db2 is different) choose the `SELLERQUALITYSCORE` and relink.
+
+![relink](doc/source/images/relink.png)
 
 ### 7. Visualize the Dashboard
 
