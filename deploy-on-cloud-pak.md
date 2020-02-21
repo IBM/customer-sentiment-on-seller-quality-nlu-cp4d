@@ -179,7 +179,7 @@ The Jupyter Notebook generated the Dataset for customer sentiments on seller qua
 
   | Product | Seller to buy from | Seller Rating |
   |---------|--------------------|---------------|
-  | Alexa   | Seller3 | 3.38 :r-full-star::r-full-star::r-full-star::r-half-star::r-blank-star: |
+  | Alexa   | Seller3 | 3.38 :r-full-star: |
   | Batteries   | Seller4 | 3.53 :r-full-star::r-full-star::r-full-star::r-half-star::r-blank-star:|
   | Fire HD   | Seller4 | 3.27 :r-full-star::r-full-star::r-full-star::r-half-star::r-blank-star:|
   | Kindle   | Seller2 | 3.29 :r-full-star::r-full-star::r-full-star::r-half-star::r-blank-star:|
