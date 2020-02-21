@@ -140,6 +140,10 @@ The Jupyter Notebook generated the Dataset for customer sentiments on seller qua
 
 ![credentials](doc/source/images/credentialsDb2.png)
 
+- The Dashboard will give you a prompt to relink the data asset (as the database schema of my Db2 and your Db2 is different) choose the `SELLERQUALITYSCORE` and relink.
+
+![relink](doc/source/images/relink.png)
+
 ### 7. Visualize the Dashboard
 
 - You will see a dashboard as shown.
