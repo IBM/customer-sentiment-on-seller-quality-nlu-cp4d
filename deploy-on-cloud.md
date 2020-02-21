@@ -40,7 +40,7 @@ We will be using Watson Natural Language Understanding service to read the comme
 
 
 ### 3. Create Watson Studio Service 
-### _(You will have already completed this step as a part of the Tutorial, use the same project)_###
+### _(You will have already completed this step as a part of the Tutorial, use the same project)_
 
 * Create [**Watson Studio**](https://cloud.ibm.com/catalog/services/watson-studio) service.
 
