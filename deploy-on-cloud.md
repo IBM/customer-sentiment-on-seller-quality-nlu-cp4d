@@ -3,7 +3,7 @@
 ## Steps
 
 1. [Download the Dataset](#1-download-the-dataset)
-2. [Create Watson Natural Language Understanding Service](#2-create-a-watson-natural-language-understanding-service)
+2. [Create Watson Natural Language Understanding Service](#2-create-watson-natural-language-understanding-service)
 3. [Create Watson Studio Service](#3-create-watson-studio-service) **_(Already completed as a part of the Tutorial)_**
 4. [Add Db2 Connection to the Project](#4-add-db2-connection-to-the-project) **_(Already completed as a part of the Tutorial)_**
 5. [Prepare and Run the Jupyter Notebook](#5-prepare-and-run-the-jupyter-notebook)
@@ -80,7 +80,7 @@ We have successfully created a project and added Db2 Connection to our project. 
   - Insert Db2 Credentials into the Notebook
  
 ##### 5.1.1. Watson Natural Language Understanding Credentials
-* Insert the credentials copied from [step 2](#2-create-a-watson-natural-language-understanding-service) in the cell shown below.
+* Insert the credentials copied from [step 2](#2-create-watson-natural-language-understanding-service) in the cell shown below.
 
 ![nluCredentials](doc/source/images/nluCredentials.png)
 
