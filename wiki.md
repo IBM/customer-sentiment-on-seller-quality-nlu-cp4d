@@ -1,6 +1,6 @@
 # Short Title
 
-Customer Sentiment on seller quality with NLU on Cloud Pak for Data
+Analyse Customer Sentiment on Seller Quality with Natural Language Understanding
 
 # Long Title
 
@@ -50,10 +50,27 @@ Customer Sentiment on seller quality with NLU on Cloud Pak for Data
 
 The Code Pattern can be deployed on either Cloud Pak for Data or IBM Cloud. Please follow the respective Instructions to deploy.
 
-- [Deploy on Cloud Pak for Data](https://github.com/IBM/customer-sentiment-on-seller-quality-nlu-cp4d/blob/master/deploy-on-cloud-pak.md)
+- Instructions to deploy on Cloud Pak for Data: 
+> Find the detailed steps in the [Deploy on Cloud Pak for Data](https://github.com/IBM/customer-sentiment-on-seller-quality-nlu-cp4d/blob/master/deploy-on-cloud-pak.md) file.
 
-- [Deploy on IBM Cloud](https://github.com/IBM/customer-sentiment-on-seller-quality-nlu-cp4d/blob/master/deploy-on-cloud.md)
+1. Download the Dataset
+2. Create Watson Natural Language Understanding Service
+3. Create a Project **(Already completed as a part of the Tutorial)**
+4. Add Db2 Connection to the Project **(Already completed as a part of the Tutorial)**
+5. Prepare and Run the Jupyter Notebook
+6. Add Embedded Dashboard to the Project
+7. Visualize the Dashboard
 
+- Instructions to deploy on IBM Cloud:
+> Find the detailed steps in the [Deploy on IBM Cloud](https://github.com/IBM/customer-sentiment-on-seller-quality-nlu-cp4d/blob/master/deploy-on-cloud.md) file.
+
+1. Download the Dataset
+2. Create Watson Natural Language Understanding Service
+3. Create Watson Studio Service **(Already completed as a part of the Tutorial)**
+4. Add Db2 Connection to the Project **(Already completed as a part of the Tutorial)**
+5. Prepare and Run the Jupyter Notebook
+6. Create Embedded Dashboard Service
+7. Visualize the Dashboard
 
 # Components and services
 
