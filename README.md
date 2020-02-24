@@ -1,4 +1,4 @@
-# Customer sentiment on seller quality with Watson Natural Language Understanding on Cloud Pak for Data
+# Analyse Customer Sentiment on Seller Quality with Natural Language Understanding
 
 In this code pattern, we will analyse sellers quality by understanding the sentiments and emotions of reviews given by customers to the sellers using Watson Natural Language Understanding on Cloud Pak for Data or IBM Cloud and give a more impactful seller rating to the sellers. 
 
