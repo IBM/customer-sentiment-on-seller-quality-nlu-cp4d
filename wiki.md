@@ -46,8 +46,6 @@ Analyse Customer Sentiment on Seller Quality with Natural Language Understanding
 
 # Instructions
 
-> Find the detailed steps for this pattern in the [readme file](https://github.com/IBM/customer-sentiment-on-seller-quality-nlu-cp4d/blob/master/README.md)
-
 The Code Pattern can be deployed on either Cloud Pak for Data or IBM Cloud. Please follow the respective Instructions to deploy.
 
 - Instructions to deploy on Cloud Pak for Data: 
