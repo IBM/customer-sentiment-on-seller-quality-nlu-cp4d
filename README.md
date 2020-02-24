@@ -1,6 +1,6 @@
 # Customer sentiment on seller quality with Watson Natural Language Understanding on Cloud Pak for Data
 
-In this code pattern, we will analyse the seller's quality by understanding the sentiments and emotions of reviews given by customers to the sellers using Watson Natural Language Understanding on Cloud Pak for Data. 
+In this code pattern, we will analyse the seller's quality by understanding the sentiments and emotions of reviews given by customers to the sellers using Watson Natural Language Understanding on Cloud Pak for Data or IBM Cloud and give a more impactful seller rating. 
 
 In any E-Commerce website the product sellers have a rating between 0 to 5 stars which are explicitly given by the customers based on the product that have been purchased. Considering this rating into account the customers feel confident enough to purchase products from the particular seller. 
 
@@ -19,10 +19,13 @@ When you have completed this code pattern, you will understand how to:
 <!--Optionally, add flow steps based on the architecture diagram-->
 ## Flow
 
-1. Create a connection for the refined data in db2 into IBM Watson Studio project in Cloud Pak for Data
-2. Setup Jupyter Notebook that reads the dataset from the IBM db2 Connection
-3. Run the Algorithm from Jupyter notebook that computes the seller rating with the help of Watson Natural Language Understanding on Cloud Pak for Data
-4. Visualise insights from the data using Watson Embedded Dashboard on Cloud Pak for Data
+1. Create a connection for the refined data in db2 into IBM Watson Studio project in Cloud Pak for Data or IBM Cloud.
+
+2. Setup Jupyter Notebook that reads the dataset from the IBM db2 Connection.
+
+3. Run the Algorithm from Jupyter notebook that computes the seller rating with the help of Watson Natural Language Understanding on Cloud Pak for Data or IBM Cloud.
+
+4. Visualise insights from the data using Watson Embedded Dashboard on Cloud Pak for Data or IBM Cloud.
 
 <!--Optionally, update this section when the video is created-->
 ## Pre-requisites
