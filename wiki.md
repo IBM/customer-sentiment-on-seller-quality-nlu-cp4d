@@ -1,6 +1,6 @@
 # Short Title
 
-Analyse Customer Sentiment on Seller Quality with Natural Language Understanding
+Analyse Seller Quality with Natural Language Understanding
 
 # Long Title
 
