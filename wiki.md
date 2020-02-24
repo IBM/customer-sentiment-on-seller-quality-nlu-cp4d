@@ -18,6 +18,14 @@ Analyse Customer Sentiment on Seller Quality with Natural Language Understanding
 
 * https://github.com/IBM/customer-sentiment-on-seller-quality-nlu-cp4d/
 
+### Deploy on Cloud Pak for Data
+
+* https://github.com/IBM/customer-sentiment-on-seller-quality-nlu-cp4d/blob/master/deploy-on-cloud-pak.md
+
+### Deploy on IBM Cloud
+
+* https://github.com/IBM/customer-sentiment-on-seller-quality-nlu-cp4d/blob/master/deploy-on-cloud.md
+
 # Summary
 
 
