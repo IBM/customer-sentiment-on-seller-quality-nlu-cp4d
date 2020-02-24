@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.com/IBM/watson-assistant-slots-intro.svg?branch=master)](https://travis-ci.com/IBM/watson-assistant-slots-intro)
 
-# Analyse Customer Sentiment on Seller Quality with Natural Language Understanding
+# Analyse Seller Quality with Natural Language Understanding
 
 In this code pattern, we will analyse sellers quality by understanding the sentiments and emotions of reviews given by customers to the sellers using Watson Natural Language Understanding on Cloud Pak for Data or IBM Cloud and give a more impactful seller rating to the sellers. 
 
