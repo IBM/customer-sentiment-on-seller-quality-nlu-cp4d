@@ -39,10 +39,13 @@ Analyse Customer Sentiment on Seller Quality with Natural Language Understanding
 
 <!--Optionally, add flow steps based on the architecture diagram-->
 
-1. Create a connection for the refined data in db2 into IBM Watson Studio project in Cloud Pak for Data
-2. Setup Jupyter Notebook that reads the dataset from the IBM db2 Connection
-3. Run the Algorithm from Jupyter notebook that computes the seller rating with the help of Watson Natural Language Understanding on Cloud Pak for Data
-4. Visualise insights from the data using Watson Embedded Dashboard on Cloud Pak for Data
+1. Create a connection for the refined data in db2 into IBM Watson Studio project in Cloud Pak for Data or IBM Cloud.
+
+2. Setup Jupyter Notebook that reads the dataset from the IBM db2 Connection.
+
+3. Run the Algorithm from Jupyter notebook that computes the seller rating with the help of Watson Natural Language Understanding on Cloud Pak for Data or IBM Cloud.
+
+4. Visualise insights from the data using Watson Embedded Dashboard on Cloud Pak for Data or IBM Cloud.
 
 # Instructions
 
@@ -52,22 +55,34 @@ The Code Pattern can be deployed on either Cloud Pak for Data or IBM Cloud. Plea
 > Find the detailed steps in the [Deploy on Cloud Pak for Data](https://github.com/IBM/customer-sentiment-on-seller-quality-nlu-cp4d/blob/master/deploy-on-cloud-pak.md) file.
 
 1. Download the Dataset
+
 2. Create Watson Natural Language Understanding Service
+
 3. Create a Project **(Already completed as a part of the Tutorial)**
+
 4. Add Db2 Connection to the Project **(Already completed as a part of the Tutorial)**
+
 5. Prepare and Run the Jupyter Notebook
+
 6. Add Embedded Dashboard to the Project
+
 7. Visualize the Dashboard
 
 - Instructions to deploy on IBM Cloud:
 > Find the detailed steps in the [Deploy on IBM Cloud](https://github.com/IBM/customer-sentiment-on-seller-quality-nlu-cp4d/blob/master/deploy-on-cloud.md) file.
 
 1. Download the Dataset
+
 2. Create Watson Natural Language Understanding Service
+
 3. Create Watson Studio Service **(Already completed as a part of the Tutorial)**
+
 4. Add Db2 Connection to the Project **(Already completed as a part of the Tutorial)**
+
 5. Prepare and Run the Jupyter Notebook
+
 6. Create Embedded Dashboard Service
+
 7. Visualize the Dashboard
 
 # Components and services
