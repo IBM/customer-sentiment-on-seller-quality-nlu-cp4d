@@ -4,6 +4,7 @@ Analyse Customer Sentiment on Seller Quality with Natural Language Understanding
 
 # Long Title
 
+Analyse Seller Quality based on Customer sentiments and other factors with Natural Language Understanding
 
 
 # Author
