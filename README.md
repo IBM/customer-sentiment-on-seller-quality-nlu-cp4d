@@ -42,7 +42,7 @@ When you have completed this code pattern, you will understand how to:
 
 |   |   |
 | - | - |
-| [![IBM Cloud](https://github.com/IBM/pattern-utils/blob/master/deploy-buttons/public.png)](deploy-on-cloud.md) | [![Cloud Pak for Data](doc/source/images/cpd.png)](deploy-on-cloud-pak.md) |
+| [![IBM Cloud](https://github.com/IBM/pattern-utils/blob/master/deploy-buttons/public.png)](deploy-on-cloud.md) | [![Cloud Pak for Data](https://github.com/IBM/pattern-utils/blob/master/deploy-buttons/cloud-pak-for-data.png)](deploy-on-cloud-pak.md) |
 
 <!--Add a section that explains to the reader what typical output looks like, include screenshots -->
 
