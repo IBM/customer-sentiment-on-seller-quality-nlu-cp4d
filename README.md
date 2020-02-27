@@ -1,4 +1,3 @@
-[![Build Status](https://travis-ci.com/IBM/watson-assistant-slots-intro.svg?branch=master)](https://travis-ci.com/IBM/watson-assistant-slots-intro)
 
 # Analyse Seller Quality with Natural Language Understanding
 
