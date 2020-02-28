@@ -37,6 +37,29 @@ When you have completed this code pattern, you will understand how to:
 
 - [IBM Cloud Account](https://cloud.ibm.com/)
 
+## Steps
+<details><summary><b>IBM Cloud Pak for Data</b></summary>
+<p>
+<p>
+<i>Use the following instructions for each of the three services.</i>
+<p>
+<h5>Install and provision service instances</h5>
+<p>
+The services are not available by default. An administrator must install them on the IBM Cloud Pak for Data platform, and you must be given access to the service. To determine whether the service is installed, Click the <b>Services</b> icon (<img class="lazycontent" src="doc/source/images/services_icon.png" alt="services_icon"/>) and check whether the service is enabled.
+<p>
+<h5>Gather credentials</h5>
+<p>
+<ol>
+    <li>For production use, create a user to use for authentication. From the main navigation menu (☰), select <b>Administer > Manage users</b> and then <b>+ New user</b>.</li>
+    <li>From the main navigation menu (☰), select <b>My instances</b>.</li>
+    <li>On the <b>Provisioned instances</b> tab, find your service instance, and then hover over the last column to find and click the ellipses icon. Choose <b>View details</b>.</li>
+    <li>Copy the <b>URL</b> to use as the <b>{SERVICE_NAME}_URL</b> when you configure credentials.</li>
+    <li><i>Optionally, copy the <b>Bearer token</b> to use in development testing only. It is not recommended to use the bearer token except during testing and development because that token does not expire.</i></li>
+    <li>Use the <b>Menu</b> and select <b>Users</b> and <b>+ Add user</b> to grant your user access to this service instance. This is the user name (and password) you will use when you configure credentials to allow the Node.js server to authenticate.</li>
+</ol>
+
+</details>
+
 ## Deployment Options
 
 |   |   |
