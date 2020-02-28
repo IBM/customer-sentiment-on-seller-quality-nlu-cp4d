@@ -287,7 +287,7 @@ The Jupyter Notebook generated the Dataset for customer sentiments on seller qua
 
 ## Sample output
 
-![sample_output](doc/source/images/sample_output.png)
+![sample_output](doc/source/images/screenshot.gif)
 
 <!-- keep this -->
 ## License
