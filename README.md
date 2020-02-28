@@ -283,12 +283,6 @@ The Jupyter Notebook generated the Dataset for customer sentiments on seller qua
   
   - <https://developer.ibm.com/tutorials/create-interactive-dashboards-on-watson-studio/>
 
-## Deployment Options
-
-|   |   |
-| - | - |
-| [![IBM Cloud](https://github.com/IBM/pattern-utils/blob/master/deploy-buttons/public.png)](deploy-on-cloud.md) | [![Cloud Pak for Data](https://github.com/IBM/pattern-utils/blob/master/deploy-buttons/cloud-pak-for-data.png)](deploy-on-cloud-pak.md) |
-
 <!--Add a section that explains to the reader what typical output looks like, include screenshots -->
 
 ## Sample output
