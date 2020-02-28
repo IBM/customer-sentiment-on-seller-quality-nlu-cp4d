@@ -131,13 +131,13 @@ Now that we have created a project, we will start adding components to our proje
 
 <details><summary><b>IBM Cloud </b></summary>
     
-- Click on **Add to Project** and select **Connection**. If you have followed [step 2](#2-create-watson-natural-language-understanding-service) select **Db2** from the list and add the credentials of your provisioned Db2 Instance. If you have a different database then you can select that and fill in the credentials.
+* Click on **Add to Project** and select **Connection**. If you have followed [step 2](#2-create-watson-natural-language-understanding-service) select **Db2** from the list and add the credentials of your provisioned Db2 Instance. If you have a different database then you can select that and fill in the credentials.
 
-![gif](doc/source/images/create_connection.gif)
+![gif](doc/source/images/create_connection2.gif)
 
-- After filling the credentials click on **Test Connection** to make sure you have entered correct credentials. Finally select **Create**.
+* After filling the credentials click on **Create**.
 
-![connection](doc/source/images/connImage.png)
+![connection](doc/source/images/connImage2.png)
 
 </details>
 
