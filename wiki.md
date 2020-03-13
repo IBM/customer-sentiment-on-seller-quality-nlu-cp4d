@@ -1,6 +1,6 @@
 # Short Title
 
-Analyse Seller Quality with Natural Language Understanding
+Use advanced Natural Language Understanding to determine sellers quality
 
 # Long Title
 
