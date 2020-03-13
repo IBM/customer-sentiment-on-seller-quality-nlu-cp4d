@@ -1,5 +1,5 @@
 
-# Analyse Seller Quality with Natural Language Understanding
+# Use Advanced Natural Language Understanding to determine Seller Quality
 
 In this code pattern, we will analyse sellers quality by understanding the sentiments and emotions of reviews given by customers to the sellers using Watson Natural Language Understanding on Cloud Pak for Data or IBM Cloud and give a more impactful seller rating to the sellers. 
 
