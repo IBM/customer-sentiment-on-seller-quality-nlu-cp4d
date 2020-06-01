@@ -30,7 +30,7 @@ When you have completed this code pattern, you will understand how to:
 
 <!--Optionally, update this section when the video is created-->
 ## Pre-requisites
-- Implementation of this Code Pattern requires a basic understanding of Data Refinery and it also makes use of the dataset created in the tutorial [Collect, cleanse, and enhance your data](https://github.com/IBM/prepare-your-dataset-using-data-refinery-from-db2-cp4d). Please complete the above tutorial before implementing this code pattern.
+- Implementation of this Code Pattern requires a basic understanding of Data Refinery and it also makes use of the dataset created in the tutorial [Collect, cleanse, and enhance your data](https://developer.ibm.com/tutorials/collect-cleanse-and-enhance-your-data/?utm_medium=OSocial&utm_source=Facebook&utm_content=000039JL&utm_term=10013593&utm_id=2020-general&cm_mmc=OSocial_Facebook-_-Audience+Developer_Developer+Conversation-_-WW_WW-_-2020-general_ov75912&cm_mmca1=000039JL&cm_mmca2=10013593&social_post=3227766987&linkId=85137945). Please complete the above tutorial before implementing this code pattern.
 
 - Any SQL Database. 
 >In this Code Pattern we demonstrate using [Db2 on Cloud Pak for Data](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/svc/db2z/create_database_db2z.html)
