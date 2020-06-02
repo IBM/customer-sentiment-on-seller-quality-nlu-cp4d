@@ -55,7 +55,7 @@ When you have completed this code pattern, you will understand how to:
 
 ### 1. Download the Dataset
 
-In this Code Pattern we are going to use **Customised version of Brazilian E-Commerce Public Dataset by Olist** that we created in the Tutorial [Prepare your Dataset for your ML Models using Data Refinery from Db2](https://github.com/IBM/prepare-your-dataset-using-data-refinery-from-db2-cp4d).
+In this Code Pattern we are going to use **Customised version of Brazilian E-Commerce Public Dataset by Olist** that we created in the Tutorial [Prepare your Dataset for your ML Models using Data Refinery from Db2](https://developer.ibm.com/tutorials/collect-cleanse-and-enhance-your-data).
 
 We are also going to use **Consumer Reviews of Amazon Products** from Kaggle. Download the dataset from the link below.
 
